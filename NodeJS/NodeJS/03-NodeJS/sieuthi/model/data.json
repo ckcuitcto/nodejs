@@ -1,0 +1,88 @@
+{
+	"sieuthi" : [
+		{
+			"stt" : 1,
+			"ten" : "Cam",
+			"gia" : 50000,
+			"hinh" : "cam.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 2,
+			"ten" : "Bưởi",
+			"gia" : 35000,
+			"hinh" : "buoi.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 3,
+			"ten" : "Chuối",
+			"gia" : 26000,
+			"hinh" : "chuoi.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 4,
+			"ten" : "Xoài",
+			"gia" : 48000,
+			"hinh" : "xoai.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 5,
+			"ten" : "Mít",
+			"gia" : 38000,
+			"hinh" : "mit.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 6,
+			"ten" : "Thơm",
+			"gia" : 19000,
+			"hinh" : "thom.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 7,
+			"ten" : "Sầu Riêng",
+			"gia" : 71000,
+			"hinh" : "saurieng.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 8,
+			"ten" : "Sapoche",
+			"gia" : 23000,
+			"hinh" : "sapoche.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 9,
+			"ten" : "Vải",
+			"gia" : 31000,
+			"hinh" : "vai.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 10,
+			"ten" : "Chôm Chôm",
+			"gia" : 29500,
+			"hinh" : "chomchom.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 11,
+			"ten" : "Cóc",
+			"gia" : 13000,
+			"hinh" : "coc.png",
+			"trangthai" : true
+		},
+		{
+			"stt" : 12,
+			"ten" : "Dưa hấu",
+			"gia" : 17500,
+			"hinh" : "duahau.png",
+			"trangthai" : true
+		}
+	]
+}

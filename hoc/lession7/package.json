@@ -1,0 +1,14 @@
+{
+  "name": "thaiduc",
+  "version": "1.0.0",
+  "description": "hoc lap trinh nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thaiDuc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

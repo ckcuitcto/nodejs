@@ -1,0 +1,10 @@
+[{username : "Vũ Quốc Tuấn",class : "CNTT",age : 26 , sex : "male", status : true},
+{username : "Lê Văn Tí",class : "QTKD",age : 29 , sex : "female", status : true},
+{username : "Nguyễn Thị Cẩm Tú",class : "CNTP",age : 21 , sex : "male", status : false},
+{username : "Nguyễn Trần Duy Nhất",class : "CNTP",age : 24 , sex : "male", status : false},
+{username : "Thái Kim Hoa",class : "QTKD",age : 20 , sex : "female", status : true},
+{username : "Nguyễn Văn Tèo",class : "CNTT",age : 21 , sex : "male", status : true},
+{username : "Đinh Thị Cẩm Yến",class : "QTKD",age : 22 , sex : "male", status : false},
+{username : "Thái Văn Vũ",class : "CNTT",age : 24 , sex : "female", status : true},
+{username : "Đoàn Lê Trung Khánh",class : "CNTP",age : 19 , sex : "male", status : false},
+{username : "Hồ Thị Yến",class : "QTKD",age : 23 , sex : "male", status : false}]

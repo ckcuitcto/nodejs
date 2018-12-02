@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= tieude
+    link(rel='stylesheet', href='/stylesheets/mystyle.css')
+  body
+    #wrapper
+        include block/header.jade
+        include block/menu.jade
+        #contain
+            block container
+        include block/footer.jade

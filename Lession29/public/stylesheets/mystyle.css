@@ -1,0 +1,18 @@
+#wrapper {
+    width: 980px;
+    margin: auto;
+}
+
+#header {
+    background: rebeccapurple;
+    height: 300px;
+}
+
+#menu { height:90px; background: green;}
+#contaion {background: blue; height: 500px;}
+#footer { background: black; height: 20px}
+
+.fontQT {
+    font-size:20px;
+    color: #00B7FF;
+}

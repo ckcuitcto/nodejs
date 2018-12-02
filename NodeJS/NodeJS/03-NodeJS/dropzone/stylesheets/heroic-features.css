@@ -1,0 +1,39 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.dropzone {
+    min-height: 150px;
+    border: 2px dotted rgba(0, 0, 0, 0.3);
+    background: #f1f1f1;
+    padding: 20px 20px;
+    
+    font-size: 23px;
+}
+
+.dz-default .dz-message span{
+    line-height: 200px!important;
+} 
+
+.jumbotron .hero-spacer {
+	padding: 20px 60px; 
+}
+
+.album_img {
+	width: 80px!important;
+
+}
+
+.table-bordered tr td {
+	line-height: 80px!important;
+	text-align: center;
+}
+footer {
+    margin: 50px 0;
+}

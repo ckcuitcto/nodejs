@@ -1,0 +1,3 @@
+﻿Chào bạn !
+Từ Lession 28 trở đi.Để chạy được ứng dụng thì việc đầu tiên bạn cần làm là cài đặt Dependencies (node_modules) cho ứng dụng bằng lệnh "npm install" trên CMD
+Cám ơn bạn đã tham gia khóa học

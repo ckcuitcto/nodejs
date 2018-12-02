@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Webservice - QuocTuan.Info</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<div class="container">
+  	<h2>Webservice</h2>
+ 	<p>Bài tập xây dựng Webservice bằng NodeJS và PostgreSQL tại QuocTuan.Info</p>
+	
+	<center><h3>Sửa Dữ Liệu</h3></center><hr />
+	<form action="" method="POST" enctype="multipart/form-data">
+		<div class="form-group">
+	      	<label for="name">Tên sản phẩm :</label>
+	      	<input type="text" class="form-control" name="txtName" />
+	    </div>
+		<div class="form-group">
+	      	<label for="price">Giá :</label>
+	      	<input type="text" class="form-control" name="txtPrice" />
+	    </div>
+	     <div class="form-group">
+	      	<label for="price">Hình hiện tại :</label>
+	      	<img src="images/photo.png" width="80px">
+	    </div>
+	    <div class="form-group">
+	      	<label for="price">Hình :</label>
+	      	<input type="file" name="fImage" />
+	    </div>
+	    <div class="form-group">
+	      	<label for="price">Nội dung :</label>
+	      	<textarea name="txtContent" class="form-control" rows="5"></textarea>
+	    </div>
+	    <div class="form-group center">
+	      	<center>
+	      		<button type="submit" class="btn btn-success" name="btnEdit">Sửa Dữ Liệu</button>
+	      	</center>
+	    </div>
+	</form>
+</div>
+</body>
+</html>

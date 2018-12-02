@@ -1,0 +1,115 @@
+--------------- Hiển thị tất cả Database
+show dbs
+
+--------------- Chọn đến Database || Tạo Database mới
+use <database_name>
+
+--------------- Hiển thị tất cả Collections trong Database
+show collections
+
+--------------- Tạo Collection
+db.createCollection(<collection_name>)
+
+--------------- Xóa Database
+db.dropDatabase()
+
+--------------- Insert Document
+db.<collection_name>.insert()
+db.giangvien.insert({"hoten" : "Vũ Quốc Tuấn","namsinh" : 2016 ,"gioitinh" : "name","trangthai" : true})
+db.giangvien.insert({"hoten" : "Vũ Quốc Tuấn","namsinh" : 2016 ,"gioitinh" : "name","trangthai" : true,"congviec" : "giangvien"})
+db.giangvien.insert({
+	"hoten" : "Vũ Quốc Tuấn",
+	"namsinh" : 2016 ,
+	"gioitinh" : "name",
+	"trangthai" : true,
+	"congviec" : "giangvien",
+	"sothich" : [
+		"đi chơi",
+		"nghe nhạc",
+		"đá banh"
+	],
+	"monan" : {
+		"nuocuong" : "sting",
+		"thucan" : "kfc"
+	}
+})
+
+--------------- Thêm dưới dạng 1 biến Object
+var tuan = {}
+tuan.ten = "Vũ Quốc Tuấn"
+tuan.tuoi = 26
+tuan.lop = "IT"
+db.<collection_name>.insert(tuan);
+
+--------------- Hiển thị tất cả Document trong Collection
+db.<collection_name>.find()
+db.giangvien.find()
+
+--------------- Hiển thị tất cả Document trong Collection dưới dạng jSON
+db.<collection_name>.find().pretty()
+db.giangvien.find().pretty()
+
+--------------- Cập nhật Document 
+db.collection.update(
+   <query>,
+   <update>,
+   {
+     upsert: <boolean>, // Nếu mà không tìm thấy document cần sửa thì tiến hành insert
+     multi: <boolean> // Cho phép sửa nhiều dòng 1 lúc
+   }
+)
+
+db.giangvien.update(
+   { "namsinh" : 2015 },
+   { $set: { "hoten" : "Vũ Quốc Tuân" } },
+   { multi: true }
+)
+
+// Cập nhật lại tất cả các dòng nếu có hoten = "Tony Teo"
+db.giangvien.update(
+   { "hoten" : "Tony Teo" },
+   { $set: { "namsinh" : "1993" , "trangthai" : false } },
+   { multi: true , upsert : true }
+)
+
+// Hủy toàn bộ field của tất cả các document
+db.giangvien.update(
+   {},
+   { $unset: { "trangthai" : "" } },
+   { multi: true , upsert : true }
+)
+
+--------------- Xóa Document 
+db.collection.remove(
+   <query>,
+   <justOne> // Chỉ xóa 1 nếu = true
+)
+db.giangvien.remove({ "namsinh" : 1990})
+db.giangvien.remove({ "namsinh" : {$gt : 1990})
+https://docs.mongodb.com/v3.2/reference/operator/query/
+
+--------------- Find Document
+db.giangvien.find({"username" : "Đinh Thị Cẩm Yến"})
+db.giangvien.find({"age" : {$gt : 22}})
+db.giangvien.find({"age" : {$gt : 22}} , {"username" : 1 , "class" : 1 , "_id" : 0}).pretty()
+db.giangvien.find().count()
+db.giangvien.find().skip(0).limit(4)
+
+--------------- Export Collection (có tên file)
+mongoexport -d <database_name> -c <collection_name> -o <output>
+mongoexport -d hocnodejs -c giangvien -o "C:\Users\Vu Quoc Tuan\Desktop\export\gv.json"
+
+--------------- Export Database
+mongodump -d <database_name> -o <output>
+mongodump -d hocnodejs -o "C:\Users\Vu Quoc Tuan\Desktop\export"
+
+--------------- Import Collection
+mongoimport -d <database_name> -c <collection> --file <input>
+mongoimport -d hocnodejs -c hocphp --file "C:\Users\Vu Quoc Tuan\Desktop\export\gv.json"
+
+--------------- Import Database (có folder Database)
+mongorestore -d <database_name> <folder_database>
+mongorestore -d hocandroid "C:\Users\Vu Quoc Tuan\Desktop\export\hocnodejs"
+
+
+

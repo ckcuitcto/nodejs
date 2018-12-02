@@ -1,0 +1,13 @@
+1. express-validator
+	https://www.npmjs.com/package/express-validator
+2. express-sessions
+	https://github.com/expressjs/session
+3. connect-flash
+	https://www.npmjs.com/package/connect-flash
+4. passportjs
+	http://passportjs.org/
+5. bcryptjs
+	https://www.npmjs.com/package/bcryptjs
+6. mongoose
+	http://mongoosejs.com/
+	

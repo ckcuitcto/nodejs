@@ -1,0 +1,17 @@
+extends template
+block container
+    form(method="POST" action="thaiduc")
+        table
+            tr
+                td
+                    | Họ và tên
+                td
+                    input(type="text" name="txtName")
+            tr
+                td
+                    | Tuổi
+                td
+                    input(type="number" name="txtAge")
+            tr
+                td(colspan="2")
+                    input(type="submit" name="btnSend" value="Gửi")

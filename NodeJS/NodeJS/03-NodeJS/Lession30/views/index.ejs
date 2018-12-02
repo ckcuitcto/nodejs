@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <% var name = "QuocTuan.Info" %>
+    <%= name %>
+
+    <% for (var i = 1 ; i <= 5 ; i = i + 1) { %>
+    	<h3><%= i %> QuocTuan.Info</h3>
+    <% } %>
+
+    
+    <% var diem = 5; %>
+    <% if (diem > 8) { %>
+    	<h3>Hoc Sinh Giỏi</h3>
+    <% } else if (diem <= 7 && diem >= 6) { %>
+    	<h3>Hoc Sinh Khá</h3>
+    <% } else { %>
+    	<h3>Học Sinh Yếu</h3>
+    <% } %>
+    
+
+    <% var mau = "<p style='color:red'>Red</p>" %>
+    <%- mau %>
+  </body>
+</html>

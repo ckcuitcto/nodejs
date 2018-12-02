@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title= title
+        link(rel ='stylesheet' , href= '/stylesheets/mystyle.css')
+    body
+        | thai huynh duc : chuoi
+        #wrapper
+            include ./block/header.jade
+
+
+                //ul
+                //    for mh in monhoc
+                //        for item in mh
+                //            li= item
+            include ./block/menu.jade
+
+            #contain
+                block container
+            //#footer
+                // - var abc = "teo"
+                // if abc == "teo"
+                //     h1 Teo
+                include ./block/footer.jade

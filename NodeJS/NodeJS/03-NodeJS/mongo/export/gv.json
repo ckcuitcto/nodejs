@@ -1,0 +1,11 @@
+{"_id":{"$oid":"58282774ac49ea355e47345c"},"username":"Vũ Quốc Tuấn","class":"CNTT","age":26.0,"sex":"male","status":true}
+{"_id":{"$oid":"582827c1ac49ea355e47345d"},"username":"Vũ Quốc Tuấn","class":"CNTT","age":26.0,"sex":"male","status":true}
+{"_id":{"$oid":"582827c1ac49ea355e47345e"},"username":"Lê Văn Tí","class":"QTKD","age":29.0,"sex":"female","status":true}
+{"_id":{"$oid":"582827c1ac49ea355e47345f"},"username":"Nguyễn Thị Cẩm Tú","class":"CNTP","age":21.0,"sex":"male","status":false}
+{"_id":{"$oid":"582827c1ac49ea355e473460"},"username":"Nguyễn Trần Duy Nhất","class":"CNTP","age":24.0,"sex":"male","status":false}
+{"_id":{"$oid":"582827c1ac49ea355e473461"},"username":"Thái Kim Hoa","class":"QTKD","age":20.0,"sex":"female","status":true}
+{"_id":{"$oid":"582827c1ac49ea355e473462"},"username":"Nguyễn Văn Tèo","class":"CNTT","age":21.0,"sex":"male","status":true}
+{"_id":{"$oid":"582827c1ac49ea355e473463"},"username":"Đinh Thị Cẩm Yến","class":"QTKD","age":22.0,"sex":"male","status":false}
+{"_id":{"$oid":"582827c1ac49ea355e473464"},"username":"Thái Văn Vũ","class":"CNTT","age":24.0,"sex":"female","status":true}
+{"_id":{"$oid":"582827c1ac49ea355e473465"},"username":"Đoàn Lê Trung Khánh","class":"CNTP","age":19.0,"sex":"male","status":false}
+{"_id":{"$oid":"582827c1ac49ea355e473466"},"username":"Hồ Thị Yến","class":"QTKD","age":23.0,"sex":"male","status":false}

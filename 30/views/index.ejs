@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title>
+          <%= title %>
+     </title>
+     <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+     <h1>
+          <%= title %>
+         <%= info.name %>
+         <% arraa.aa.forEach(function (item) { %>
+              <li><% item  %></li>
+         <% })%>
+     </h1>
+
+
+
+     <p>Welcome to
+          <%= title %>
+     </p>
+     <%  var name = " aaaa"%>
+     <%= name %>
+     <% for (var i=1 ; i< 10 ; i++){ %>
+     <h3>
+          <%= i %>
+     </h3>
+     <% } %>
+     <% var diem = 10;     %>
+     <% if(diem > 9) { %>
+     <h3> gioi </h3>
+     <% }else if(diem <=7 || diem >= 5){  %>
+     <h3> kha </h3>
+     <% }else { %>
+     <h3> ngu </h3>
+     <%  } %>
+
+</body>
+
+</html>

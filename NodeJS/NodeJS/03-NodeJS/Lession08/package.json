@@ -1,0 +1,14 @@
+{
+  "name": "quoctuan-module",
+  "version": "1.0.0",
+  "description": "Xay dung Module QuocTuan.Info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quoctuan"
+  ],
+  "author": "QuocTuan.Info",
+  "license": "ISC"
+}

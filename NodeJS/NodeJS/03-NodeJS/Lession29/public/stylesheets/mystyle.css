@@ -1,0 +1,6 @@
+#wrapper {width: 980px;margin: auto}
+#header {background: red;height: 200px}
+#menu {background: green;height: 90px}
+#contain {background: blue;height: 500px}
+#footer {background: black;height: 150px}
+.fontQT {font-size:20px; color:white;text-align: center;}

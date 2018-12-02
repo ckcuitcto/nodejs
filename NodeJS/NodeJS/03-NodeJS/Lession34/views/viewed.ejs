@@ -1,0 +1,33 @@
+<% include blocks/header.ejs %>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+        	<% if (viewed != undefined) { %>
+				<% viewed.forEach (function (id) { %>
+					<% dataShop.sieuthi.forEach (function (item) { %>
+	          			<% if (item.stt == id) { %>
+				          	<div class="col-sm-6 col-md-4">
+								<div class="thumbnail" >
+									<h4 class="text-center"><span class="label label-info"><%= item.ten %></span></h4>
+									<img src="../storage/<%= item.hinh %>" class="img-responsive">
+									<div class="caption" style="height: 70px!important;text-align: center;">
+										<div class="row">
+											<div class="col-md-12 col-xs-12">
+												<h3>
+													<label><%= format_currency(item.gia) %> VNĐ</label>
+												</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<% } %>
+					<% }); %>
+				<% }); %>
+			<% } %>
+        </div>
+    </div>
+    <!-- /.container -->
+    
+<% include blocks/footer.ejs %>
