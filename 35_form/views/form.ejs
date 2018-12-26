@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>QuocTuan.Info</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<table align="center">
+	<tr>
+		<td width="600px">
+			<form action="" method="POST" enctype="multipart/form-data">
+				<fieldset>
+					<legend><b>Enter Your Information</b></legend>
+					<table>
+						<tr>
+							<td width="100px">Fullname:</td>	
+							<td>
+								<input type="text" name="txtName" size="30" />
+							</td>	
+						</tr>
+						<tr>
+							<td>Address:</td>	
+							<td>
+								<input type="text" name="txtAdd" size="30" />
+							</td>	
+						</tr>
+						<tr>
+							<td>Phone:</td>	
+							<td>
+								<input type="text" name="txtPhone" size="30" />
+							</td>	
+						</tr>
+						<tr>
+							<td>Gender:</td>	
+							<td>
+								<input type="radio" name="rdoGender" value="1" checked="checked" /> Male 
+								<input type="radio" name="rdoGender" value="0" /> Female
+							</td>	
+						</tr>
+						<tr>
+							<td>Country:</td>	
+							<td>
+								<select name="sltCountry">
+									<option value="none">Select your country</option>
+									<option value="Việt Nam">Vietnam</option>
+									<option value="Nhật">Japan</option>
+								</select>
+							</td>	
+						</tr>
+						<tr>
+							<td>Study:</td>	
+							<td>
+								<input type="checkbox" name="chkSubject" value="nodejs" /> NodeJS
+								<input type="checkbox" name="chkSubject" value="android" /> Android
+								<input type="checkbox" name="chkSubject" value="php" /> PHP 
+								<input type="checkbox" name="chkSubject" value="swift" /> Swift iOS
+							</td>	
+						</tr>
+						<tr>
+							<td>Avatar:</td>	
+							<td>
+								<input type="file" name="fAvatar" />
+							</td>	
+						</tr>
+						<tr>
+							<td>Note:</td>	
+							<td>
+								<textarea name="txtNote" cols="30" rows="5"></textarea>
+							</td>	
+						</tr>
+						<tr>
+							<td></td>	
+							<td>
+								<input type="submit" name="btnSend" value="Send" /> 
+								<input type="reset" name="btnReset" value="Reset" />
+							</td>	
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</td>
+	</tr>
+</table>	
+</body>
+</html>

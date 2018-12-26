@@ -13,10 +13,14 @@ router.get('/detail/:id', function (req, res, next) {
         req.session.viewed = [];
     }
     req.session.viewed.push(id);
+    console.log(req.session.viewed);
+
     res.render('detail', {id: id});
 });
 router.get('/viewed', function (req, res, next) {
-    res.render('viewed',{ zxc : req.session.viewed });
+    console.log(req.session.viewed);
+    spdaxem = [1,3];
+    res.render('viewed',{ spdaxem : spdaxem });
 });
 
 module.exports = router;
